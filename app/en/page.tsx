@@ -1,12 +1,11 @@
-import Image from "next/image";
-import Hiring from "./ui/de/Hiring";
-import Imprint from "./ui/de/Imprint";
-import ButtonLanguage from "./ui/de/ButtonLanguage";
-import LegalTech from "./ui/de/LegalTech";
-import Achievement from "./ui/de/Achievements";
-import GoodrightCarousel from "./ui/de/GoodrightCarousel";
+import Achievements from "../ui/en/Achievements";
+import ButtonLanguage from "../ui/en/ButtonLanguage";
+import GoodrightCarousel from "../ui/en/GoodrightCarousel";
+import Hiring from "../ui/en/Hiring";
+import Imprint from "../ui/en/Imprint";
+import LegalTech from "../ui/en/LegalTech";
 
-export default function Home() {
+export default function HomeEnglish() {
   return (
     <div className="p-0 bg-white text-black">
       <ButtonLanguage />
@@ -15,7 +14,7 @@ export default function Home() {
       </p>
       <GoodrightCarousel />
       <div className="mx-auto md:w-[1200px] px-4 py-8">
-        <Achievement />
+        <Achievements />
         <LegalTech />
         <Hiring />
         <Imprint />
