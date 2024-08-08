@@ -1,7 +1,7 @@
 // DEUTSCH
 export const hiringDeutsch = [
   {
-    title: "Wir stellen ein",
+    title: "Wir suchen",
     content:
       "Wir suchen Kollegen, die etwas Sinnvolles tun möchten. Uns hat nie interessiert, woher unsere Kollegen kommen, sondern nur, wohin sie gehen wollen. Wir bieten kein Bällebad, aber faire Arbeitsbedingungen. Wir erwarten Leistung, respektieren aber auch den Rest Ihres Lebens.",
     position1: "Programmierer",

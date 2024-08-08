@@ -5,7 +5,7 @@ export default function ButtonLanguage() {
     <div className="flex justify-end bg-blue-500 text-white">
       <Link
         href="/en"
-        className="w-14 border border-white-300 rounded text-center mt-8 mr-8"
+        className="w-14 border border-white-300 rounded text-center mt-8 mr-8 text-xl py-1"
       >
         EN
       </Link>
