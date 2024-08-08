@@ -17,7 +17,7 @@ class GoodrightCarousel extends Component {
       >
         {carouselItemsDeutsch.map((item, idx) => (
           <div key={idx} className="relative bg-blue-500 h-screen flex">
-            <div className="text-white text-2xl font-bold mt-4 md:w-2/3 mx-auto leading-10 p-8">
+            <div className="text-white text-2xl md:text-4xl font-bold mt-4 md:w-2/3 mx-auto leading-10 p-8">
               {item.text}
             </div>
           </div>

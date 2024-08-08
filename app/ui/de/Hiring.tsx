@@ -4,7 +4,7 @@ import { hiringDeutsch } from "../../lib/hiring-data";
 
 export default function Hiring() {
   return (
-    <div className="mt-40 text-center">
+    <div className="mt-40 text-center mx-auto md:w-[1200px] px-4 py-8">
       {hiringDeutsch.map((job, index) => (
         <div key={index} className="mb-10">
           <h2 className="uppercase text-3xl font-bold">{job.title}</h2>

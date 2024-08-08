@@ -14,10 +14,12 @@ export default function Home() {
         Legaltech innovation <br /> since day one
       </p>
       <GoodrightCarousel />
-      <div className="mx-auto md:w-[1200px] px-4 py-8">
+      <div className="bg-blue-100 py-11">
         <Achievement />
-        <LegalTech />
-        <Hiring />
+      </div>
+      <LegalTech />
+      <Hiring />
+      <div className="bg-blue-100 py-11">
         <Imprint />
       </div>
     </div>

@@ -7,7 +7,7 @@ import { achievementsDeutsch } from "@/app/lib/achievement-data";
 
 export default function Achievement() {
   return (
-    <div className="e141-5 x-section">
+    <div className="e141-5 x-section mx-auto md:w-[1200px] px-4 py-8">
       <div className="e141-6 x-container">
         <div className="e141-7 x-column flex flex-col sm:flex-row justify-between">
           <div className="e141-7 x-column flex flex-col items-center text-center w-full sm:w-1/4 mb-8 sm:mb-0">

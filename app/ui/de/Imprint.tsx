@@ -4,7 +4,7 @@ export default function Imprint() {
   const imprint = imprintDeutsch[0];
 
   return (
-    <div className="flex flex-col items-center align-center mt-40 text-center">
+    <div className="flex flex-col items-center align-center mt-30 text-center">
       <div>
         <h1 className="uppercase text-3xl font-bold mb-8">{imprint.title}</h1>
       </div>
