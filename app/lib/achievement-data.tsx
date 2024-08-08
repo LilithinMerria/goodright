@@ -14,22 +14,22 @@ const achievementsDeutsch = [
 
 export const countersDeutsch = [
   {
-    icon: <LiaLifeRing className="text-6xl" />,
+    icon: <LiaLifeRing className="text-7xl" />,
     endNumber: 650000,
     label: achievementsDeutsch[0].legalSolved,
   },
   {
-    icon: <FiUsers className="text-6xl" />,
+    icon: <FiUsers className="text-7xl" />,
     endNumber: 500000,
     label: achievementsDeutsch[0].users,
   },
   {
-    icon: <TbBooks className="text-6xl" />,
+    icon: <TbBooks className="text-7xl" />,
     endNumber: 60,
     label: achievementsDeutsch[0].areasLaw,
   },
   {
-    icon: <LiaBalanceScaleSolid className="text-6xl" />,
+    icon: <LiaBalanceScaleSolid className="text-7xl" />,
     endNumber: 600,
     label: achievementsDeutsch[0].lawyers,
   },
@@ -47,22 +47,22 @@ const achievementsEnglish = [
 
 export const counterEnglish = [
   {
-    icon: <LiaLifeRing className="text-6xl" />,
+    icon: <LiaLifeRing className="text-7xl" />,
     endNumber: 650000,
     label: achievementsEnglish[0].legalSolved,
   },
   {
-    icon: <FiUsers className="text-6xl" />,
+    icon: <FiUsers className="text-7xl" />,
     endNumber: 500000,
     label: achievementsEnglish[0].users,
   },
   {
-    icon: <TbBooks className="text-6xl" />,
+    icon: <TbBooks className="text-7xl" />,
     endNumber: 60,
     label: achievementsEnglish[0].areasLaw,
   },
   {
-    icon: <LiaBalanceScaleSolid className="text-6xl" />,
+    icon: <LiaBalanceScaleSolid className="text-7xl" />,
     endNumber: 600,
     label: achievementsEnglish[0].lawyers,
   },

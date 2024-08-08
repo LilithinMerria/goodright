@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Achievement() {
   return (
-    <div className="e141-5 x-section mx-auto md:w-[1200px] px-4 py-8">
+    <div className="e141-5 x-section mx-auto lg:w-[1200px] px-4 py-8">
       <div className="e141-6 x-container">
         <div className="e141-7 x-column flex flex-col sm:flex-row justify-between">
           {counterEnglish.map(({ icon, endNumber, label }, index) => (

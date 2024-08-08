@@ -17,11 +17,13 @@ export default function Home() {
       <div className="bg-blue-100 py-11">
         <Achievement />
       </div>
-      <h1 className="mx-auto w-[1200px] text-center text-4xl font-bold mt-24">
+      <h1 className="mx-auto lg:w-[1200px] text-center text-4xl font-bold mt-24">
         DAS SIND UNSERE LEGAL TECH SUPERHEROES
       </h1>
-      <LegalTech />
-      <Hiring />
+      <div className="divide-y">
+        <LegalTech />
+        <Hiring />
+      </div>
       <div className="bg-blue-100 py-11">
         <Imprint />
       </div>
