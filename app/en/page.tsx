@@ -16,6 +16,9 @@ export default function HomeEnglish() {
       <div className="bg-blue-100 py-11">
         <Achievements />
       </div>
+      <h1 className="mx-auto w-[1200px] text-center text-4xl font-bold mt-24">
+        OUR LEGAL TECH SUPERHEROES
+      </h1>
       <LegalTech />
       <Hiring />
       <div className="bg-blue-100 py-11">
